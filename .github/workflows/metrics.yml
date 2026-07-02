@@ -1,0 +1,50 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          user: Azraeel
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          repositories_forks: no
+          repositories_affiliations: owner, collaborator, organization_member
+          config_timezone: America/Chicago
+          config_display: large
+          config_order: base.header, base.activity+community, base.repositories, followup, languages, habits, people, reactions
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_other: yes
+          plugin_habits: yes
+          plugin_habits_from: 300
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          plugin_people: yes
+          plugin_people_types: followers, following
+          plugin_people_limit: 30
+          plugin_people_size: 28
+          plugin_reactions: yes
+          plugin_reactions_limit: 303
+          plugin_reactions_details: percentage
