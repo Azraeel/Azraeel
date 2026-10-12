@@ -321,12 +321,12 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="443.9966459858435" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="443.9966459858435" y="0" width="278.46159696835537" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="722.4582429541989" y="0" width="121.80301994752254" height="8" fill="#3F3F3F"/>
-                    <rect mask="url(#languages-bar)" x="844.2612629017215" y="0" width="17.079488184674393" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="861.3407510863959" y="0" width="16.338256268843672" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="877.6790073552396" y="0" width="42.32099264476053" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="430.5186994884387" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="430.5186994884387" y="0" width="270.0086265699234" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="700.5273260583621" y="0" width="123.28914069411522" height="8" fill="#3F3F3F"/>
+                    <rect mask="url(#languages-bar)" x="823.8164667524773" y="0" width="38.401631782414924" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="862.2180985348923" y="0" width="16.561023844825666" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="878.7791223797179" y="0" width="41.22087762028208" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -338,18 +338,18 @@
                                 Python
                             </div>
                             <small>
-                                <div>48.26%</div>
+                                <div>46.8%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                C++
+                                HTML
                             </div>
                             <small>
-                                <div>1.78%</div>
+                                <div>1.8%</div>
                             </small>
                         </div>
                     </section>
@@ -362,7 +362,7 @@
                                 Lua
                             </div>
                             <small>
-                                <div>30.27%</div>
+                                <div>29.35%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -373,7 +373,7 @@
                                 Other
                             </div>
                             <small>
-                                <div>4.6%</div>
+                                <div>4.48%</div>
                             </small>
                         </div>
                     </section>
@@ -386,7 +386,7 @@
                                 SQF
                             </div>
                             <small>
-                                <div>13.24%</div>
+                                <div>13.4%</div>
                             </small>
                         </div>
                     </section>
@@ -394,12 +394,12 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#f34b7d" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                HTML
+                                C++
                             </div>
                             <small>
-                                <div>1.86%</div>
+                                <div>4.17%</div>
                             </small>
                         </div>
                     </section>
@@ -465,11 +465,11 @@
                                 <div class="category column">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge info">
                                         <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="263.2 329"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="227.76923076923077 329"/>
                                         <text x="60" y="60" dominant-baseline="central">👍</text>
                                     </svg>
                                     <span class="title nowrap">
-                                        80
+                                        69
                                         <small>%</small>
                                     </span>
                                 </div>
@@ -486,11 +486,11 @@
                                 <div class="category column">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge info">
                                         <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="65.8 329"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="50.61538461538462 329"/>
                                         <text x="60" y="60" dominant-baseline="central">😄</text>
                                     </svg>
                                     <span class="title nowrap">
-                                        20
+                                        15
                                         <small>%</small>
                                     </span>
                                 </div>
@@ -507,20 +507,22 @@
                                 <div class="category column">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge info">
                                         <circle class="gauge-base" r="53" cx="60" cy="60"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="25.30769230769231 329"/>
                                         <text x="60" y="60" dominant-baseline="central">👀</text>
                                     </svg>
                                     <span class="title nowrap">
-                                        0
+                                        8
                                         <small>%</small>
                                     </span>
                                 </div>
                                 <div class="category column">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge info">
                                         <circle class="gauge-base" r="53" cx="60" cy="60"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="25.30769230769231 329"/>
                                         <text x="60" y="60" dominant-baseline="central">🚀</text>
                                     </svg>
                                     <span class="title nowrap">
-                                        0
+                                        8
                                         <small>%</small>
                                     </span>
                                 </div>
@@ -541,7 +543,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 11 Oct 2026, 09:38:03 (timezone America/Chicago) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Oct 2026, 12:21:02 (timezone America/Chicago) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
