@@ -321,12 +321,12 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="422.5032026132505" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="422.5032026132505" y="0" width="264.9815434139148" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="687.4847460271652" y="0" width="132.42558512339244" height="8" fill="#3F3F3F"/>
-                    <rect mask="url(#languages-bar)" x="819.9103311505577" y="0" width="43.3429932981258" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="863.2533244486834" y="0" width="16.252686866580934" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="879.5060113152645" y="0" width="40.493988684735555" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="422.41826874252257" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="422.41826874252257" y="0" width="264.92827539602905" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="687.3465441385516" y="0" width="132.3989642186079" height="8" fill="#3F3F3F"/>
+                    <rect mask="url(#languages-bar)" x="819.7455083571595" y="0" width="43.51922361406041" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="863.2647319712198" y="0" width="16.249419663878633" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="879.5141516350985" y="0" width="40.48584836490146" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -399,7 +399,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>4.71%</div>
+                                <div>4.73%</div>
                             </small>
                         </div>
                     </section>
@@ -544,7 +544,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 30 Oct 2026, 09:49:17 (timezone America/Chicago) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 31 Oct 2026, 09:17:21 (timezone America/Chicago) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
